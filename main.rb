@@ -15,7 +15,7 @@ begin
   when 1
     puts "Digite uma quantidade de Horas para o Calculo"
     hora = gets.to_i
-    questao = Lista01.new
+    questao = Questao1.new
     questao.calcularHoras(hora)
   when 2
     puts "Digite um valor para o raio"

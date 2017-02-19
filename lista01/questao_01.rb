@@ -1,4 +1,4 @@
-class Lista01
+class Questao1
   def calcularHoras(hora)
     minutos = hora * 60;
     segundos = minutos * 60;
